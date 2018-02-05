@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gnh\\Gnhconsul\\": "src/Gnh/Gnhconsul"
+            "Gnhconsul\\": "src/Gnhconsul"
         }
     },
     "minimum-stability":"dev"
