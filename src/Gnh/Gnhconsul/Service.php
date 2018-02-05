@@ -6,11 +6,11 @@
  * Time: 下午5:21
  */
 
-namespace gnh\gnhconsul;
+namespace Gnh\Gnhconsul;
 
 use PurplePixie\PhpDns\DNSQuery;
 
-class service
+class Service
 {
     private $consulDnsHost = "127.0.0.1:8600";  //默认本地consul接口
     private $type = "SRV";                      //srv模式
