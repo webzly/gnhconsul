@@ -10,7 +10,7 @@ namespace webzly\gnhconsul;
 
 use PurplePixie\PhpDns\DNSQuery;
 
-class ConsulModel
+class gnhconsul
 {
     protected $consulDnsHost = "127.0.0.1:8600";
     protected $type = "SRV";
