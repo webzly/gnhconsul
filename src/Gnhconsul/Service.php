@@ -112,7 +112,14 @@ class Service
             }
         }
 
-        return $arr;
+        //domain
+        $ipList = array();
+        foreach ($arr as $value)
+        {
+            $ipList[] = $value['ip'].':'.$value['port'];
+        }
+
+        return $ipList;
 
     }
 }
