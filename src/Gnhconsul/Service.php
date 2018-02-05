@@ -6,7 +6,7 @@
  * Time: 下午5:21
  */
 
-namespace Gnh\Gnhconsul;
+namespace Gnhconsul;
 
 use PurplePixie\PhpDns\DNSQuery;
 
