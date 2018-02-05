@@ -97,7 +97,7 @@ class Service
         }
 
 
-        foreach ($arr as &$value)
+        foreach ($arr as $key => $value)
         {
             $result= $dns_query->Query($value['hostname'], $this->ipType);
             if ( $result && $result->count()>0)
@@ -106,7 +106,7 @@ class Service
                 {
                     if ($dnsResult->getTypeid() == $this->ipType)
                     {
-                        $value['ip'] = $dnsResult->getData();
+                        $arr[$key]['ip'] = $dnsResult->getData();
                     }
                 }
             }
