@@ -8,11 +8,12 @@
         }
     ],
     "require": {
-        "purplepixie/phpdns": "^2.0"
+        "purplepixie/phpdns": "^2.0",
+        "gnh/gnhconsul": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "gnh\\gnhconsul\\": "src/"
+            "Gnh\\Gnhconsul\\": "src/Gnh/Gnhconsul"
         }
     },
     "minimum-stability":"dev"
