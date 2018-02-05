@@ -1,0 +1,16 @@
+{
+    "name": "gnh/gnhconsul",
+    "description": "测试",
+    "authors": [
+        {
+            "name": "zhuliuyang",
+            "email": "1366934093@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "gnhconsul": "src/"
+        }
+    }
+}
