@@ -1,6 +1,6 @@
 {
     "name": "gnh/gnhconsul",
-    "description": "测试",
+    "description": "consul的dns解析",
     "authors": [
         {
             "name": "zhuliuyang",
